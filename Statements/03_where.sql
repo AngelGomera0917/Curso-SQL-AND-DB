@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE age = 21; -- Este comando selecciona todas las columnas de la tabla "users" pero solo muestra los registros donde la edad es igual a 21.
