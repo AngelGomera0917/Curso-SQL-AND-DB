@@ -1,0 +1,3 @@
+SELECT * FROM users LIMIT 3; -- Este comando selecciona todas las columnas de la tabla "users" pero solo muestra los primeros 3 registros. El comando LIMIT se utiliza para limitar el número de filas devueltas por una consulta. En este caso, solo se mostrarán los primeros 3 usuarios de la tabla "users".
+
+SELECT * FROM users WHERE age > 21 OR name = 'Carmen' LIMIT 2; -- Este comando selecciona todas las columnas de la tabla "users" pero solo muestra los primeros 2 registros que cumplen con la condición de tener una edad mayor a 21 o un nombre igual a 'Carmen'. El comando LIMIT se utiliza para limitar el número de filas devueltas por una consulta, en este caso, solo se mostrarán los primeros 2 usuarios que cumplan con alguna de las condiciones especificadas.
