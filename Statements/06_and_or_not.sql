@@ -1,0 +1,7 @@
+SELECT * FROM users WHERE NOT name = 'Angel'; -- Este comando selecciona todas las columnas de la tabla "users" pero solo muestra los registros donde el nombre no es 'Angel'. El operador NOT se utiliza para negar la condición, por lo que este comando mostrará todos los usuarios cuyo nombre no sea 'Angel'.
+
+SELECT * FROM users WHERE age > 21 AND NOT name = 'Angel'; -- Este comando selecciona todas las columnas de la tabla "users" pero solo muestra los registros donde la edad es mayor a 21 y el nombre no es 'Angel'. El operador AND se utiliza para combinar dos condiciones, por lo que este comando mostrará todos los usuarios que tengan una edad mayor a 21 y cuyo nombre no sea 'Angel'.
+
+SELECT * FROM users WHERE age > 21 AND name = 'Angel'; -- Este comando selecciona todas las columnas de la tabla "users" pero solo muestra los registros donde la edad es mayor a 21 y el nombre es 'Angel'. El operador AND se utiliza para combinar dos condiciones, por lo que este comando mostrará todos los usuarios que tengan una edad mayor a 21 y cuyo nombre sea 'Angel'.
+
+SELECT * FROM users WHERE age > 50 OR name = 'Darli'; -- Este comando selecciona todas las columnas de la tabla "users" pero solo muestra los registros donde la edad es mayor a 50 o el nombre es 'Darli'. El operador OR se utiliza para combinar dos condiciones, por lo que este comando mostrará todos los usuarios que tengan una edad mayor a 50 o cuyo nombre sea 'Darli'.
