@@ -1,0 +1,5 @@
+SELECT avg(age) FROM users; -- Este comando selecciona el valor promedio de la columna "age" de la tabla "users". El comando AVG se utiliza para calcular el valor promedio de una columna específica, en este caso, se mostrará la edad promedio de todos los usuarios registrados en la base de datos.
+
+SELECT avg(age) FROM users WHERE age > 21; -- Este comando selecciona el valor promedio de la columna "age" de la tabla "users" pero solo muestra los registros donde la edad es mayor a 21. El comando AVG se utiliza para calcular el valor promedio de una columna específica, en este caso, se mostrará la edad promedio de los usuarios que tienen una edad mayor a 21.
+
+SELECT avg(age) FROM users WHERE age = 21; -- Este comando selecciona el valor promedio de la columna "age" de la tabla "users" pero solo muestra los registros donde la edad es igual a 21. El comando AVG se utiliza para calcular el valor promedio de una columna específica, en este caso, se mostrará la edad promedio de los usuarios que tienen una edad igual a 21.
