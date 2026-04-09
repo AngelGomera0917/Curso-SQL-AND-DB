@@ -5,3 +5,5 @@ SELECT max(age) FROM users; -- Este comando selecciona el valor máximo de la co
 SELECT min(age) FROM users WHERE age > 25; -- Este comando selecciona el valor mínimo de la columna "age" de la tabla "users" pero solo muestra los registros donde la edad es mayor a 25. El comando MIN se utiliza para obtener el valor mínimo de una columna, en este caso, se mostrará la edad mínima de los usuarios que tengan una edad mayor a 25.
 
 SELECT min(age) FROM users; -- Este comando selecciona el valor mínimo de la columna "age" de la tabla "users". El comando MIN se utiliza para obtener el valor mínimo de una columna, en este caso, se mostrará la edad mínima de todos los usuarios registrados en la base de datos.
+
+SELECT max(age) AS edad_maxima FROM users; -- Este comando selecciona el valor máximo de la columna "age" de la tabla "users" y le asigna un alias "edad_maxima" a la columna resultante. El comando MAX se utiliza para obtener el valor máximo de una columna, en este caso, se mostrará la edad máxima de todos los usuarios registrados en la base de datos con el nombre de columna "edad_maxima".
