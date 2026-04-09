@@ -1,0 +1,5 @@
+SELECT sum(age) FROM users; -- Este comando selecciona la suma total de los valores de la columna "age" de la tabla "users". El comando SUM se utiliza para calcular la suma de los valores en una columna específica, en este caso, se mostrará la suma total de las edades de todos los usuarios registrados en la base de datos.
+
+SELECT sum(age) FROM users WHERE age = 21; -- Este comando selecciona la suma total de los valores de la columna "age" de la tabla "users" pero solo muestra los registros donde la edad es igual a 21. El comando SUM se utiliza para calcular la suma de los valores en una columna específica, en este caso, se mostrará la suma total de las edades de los usuarios que tienen una edad igual a 21.
+
+SELECT sum(age) FROM users WHERE age > 21; -- Este comando selecciona la suma total de los valores de la columna "age" de la tabla "users" pero solo muestra los registros donde la edad es mayor a 21. El comando SUM se utiliza para calcular la suma de los valores en una columna específica, en este caso, se mostrará la suma total de las edades de los usuarios que tienen una edad mayor a 21.
