@@ -1,0 +1,5 @@
+SELECT count(age) FROM users WHERE age = 21; -- Este comando selecciona el número de registros de la columna "age" de la tabla "users" pero solo muestra los registros donde la edad es igual a 21. El comando COUNT se utiliza para contar el número de filas que cumplen con una condición específica, en este caso, se mostrará el número de usuarios que tienen una edad igual a 21.
+
+SELECT count(age) FROM users; -- Este comando selecciona el número de registros de la columna "age" de la tabla "users". El comando COUNT se utiliza para contar el número de filas en una columna, en este caso, se mostrará el número total de usuarios registrados en la base de datos, independientemente de su edad.
+
+SELECT count(*) FROM users; -- Este comando selecciona el número total de registros de la tabla "users". El comando COUNT(*) se utiliza para contar el número total de filas en una tabla, en este caso, se mostrará el número total de usuarios registrados en la base de datos, independientemente de cualquier condición específica.
