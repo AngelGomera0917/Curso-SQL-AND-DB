@@ -1,0 +1,3 @@
+SELECT * FROM users WHERE name in ('Angel'); -- Este comando selecciona todos los registros de la tabla "users" donde el valor de la columna "name" sea igual a 'Angel'. El operador IN se utiliza para especificar múltiples valores en una cláusula WHERE, en este caso, se mostrará toda la información de los usuarios cuyo nombre sea 'Angel'.
+
+SELECT * FROM users WHERE name in ('Angel', 'Darli'); -- Este comando selecciona todos los registros de la tabla "users" donde el valor de la columna "name" sea igual a 'Angel' o 'Darli'. El operador IN se utiliza para especificar múltiples valores en una cláusula WHERE, en este caso, se mostrará toda la información de los usuarios cuyo nombre sea 'Angel' o 'Darli'.
