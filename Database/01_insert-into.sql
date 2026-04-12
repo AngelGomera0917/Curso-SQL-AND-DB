@@ -1,0 +1,1 @@
+INSERT INTO users (name, surname, age, email) VALUES ('Delfi', 'Gonzalez', '24', 'delfi@hotmail.com'); -- Este comando inserta un nuevo registro en la tabla "users" con los valores especificados para las columnas "name", "surname", "age" y "email". En este caso, se agrega un usuario llamado Delfi Gonzalez, con una edad de 24 años y una dirección de correo electrónico de
